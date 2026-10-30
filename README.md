@@ -179,4 +179,4 @@ Ante una reforma normativa se cambia una premisa y las reglas la toman sin tocar
 
 ## Autoría
 
-Trabajo práctico desarrollado en el marco de la cursada de la asignatura: Análisis de datos II: Sistemas expertos y redes de conocimiento. Docente: Dr. Asuaje, Agustín. Estudiantes: Alcaraz, Amalia García, Pedro Facundo Guerra, Lautaro Llampa, Jose Cristian Lionel Sánchez, Nancy Vanesa
+Trabajo práctico desarrollado en el marco de la cursada de la asignatura: Análisis de datos II: Sistemas expertos y redes de conocimiento. Docente: Dr. Asuaje, Agustín. Estudiantes: Alcaraz, Amalia García, Pedro Facundo Guerra, Lautaro Llampa, Jose Cristian Lionel y Sánchez, Nancy Vanesa
