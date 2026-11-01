@@ -164,10 +164,10 @@ def test_bloqueo_mep_prevalece_aun_con_dato_faltante():
 
 
 # --------------------------------------------------------------------------
-# Comportamiento actual en casos grises (criterio a acordar con el otro grupo).
-# Hoy el motor emite CONDICIONAL aunque falte otro dato; si se decide que
-# cualquier faltante debe dar SIN_CONCLUSION, cambiar el esperado y ajustar
-# el motor (R27 / R28).
+# Criterio acordado con el equipo (RF-06 / CP-10): con cualquier parámetro
+# faltante y sin causal bloqueante, el dictamen es SIN_CONCLUSION, aunque ya
+# exista otra causal condicionante. No se emite Autorizado ni Condicional.
+# El motor lo implementa en R27, R28 y R29 (NOT faltante).
 # --------------------------------------------------------------------------
 def test_gris_activos_faltante_con_plazo_insuficiente():
     r = evaluar(tipo_solicitud=IMP, categoria=CG, dias_plazo=15, opero_mep=False, activos_externos=None)
